@@ -164,6 +164,8 @@ background-color: #404BBF;
 }
 .visually-hidden {
     position: absolute;
+    width: 1px;
+    height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
@@ -173,11 +175,12 @@ background-color: #404BBF;
     overflow: hidden;
 }
 
+
 .features{
 padding-top: 120px;
 padding-bottom: 120px ;
 }
-.features-item{
+.features-list{
 display: flex;
 gap: 24px;
 margin-left: auto;
@@ -191,9 +194,10 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 margin-bottom: 8px;
+}
+.features-item{
 width: calc((100% - 72px) / 4);
 }
-
 
 .features-item-reference{
 font-size: 16px;
