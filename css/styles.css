@@ -300,7 +300,6 @@ letter-spacing: 0.02em;
 text-align: left;
 color: #2e2f42;
 margin-bottom: 8px;
-column-gap: 24px;
 }
 .team-list-item{
 font-size: 16px;
@@ -310,6 +309,7 @@ letter-spacing: 0.02em;
 text-align: left;
 color: #434455;
 padding-top: 15px;
+column-gap: 24px;
 }
 /**--------------------------*/
 /**-------------Footer-----------*/
