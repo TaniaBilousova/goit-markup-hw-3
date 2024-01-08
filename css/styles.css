@@ -190,9 +190,11 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: left;
+text-align: center;
 color: #2e2f42;
+margin: auto;
 margin-bottom: 8px;
+width: calc((100% - 72px) / 4);
 }
 
 
@@ -200,7 +202,7 @@ margin-bottom: 8px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: left;
+text-align: center;
 color: #434455;
 }
 
@@ -249,6 +251,7 @@ line-height: 1.5;
 color: #434455;
 background-color: #FFFFFF;
 border-radius: 0px 0px 4px 4px;
+width: calc((100% - 72px) / 4);
 }
 
 .team-img{
@@ -256,17 +259,13 @@ display: block;
 gap: 24px;
 }
 
-.team-memebers{
+.team-members{
 border-radius: 0px 0px 4px 4px;
 padding-top: 32px;
 padding-bottom: 32px;
 gap: 24px;
 }
-.team-memebers{
-border-radius: 0px 0px 4px 4px;
-padding-top: 32px;
-padding-bottom: 32px;
-}
+
 .features-list-guide{
 margin-bottom: 8px;
 text-align: center;
