@@ -279,14 +279,12 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.container-team-options{
+.team-options{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 }
 .team-list-options{
-width: 143px; 
-height: 24px;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
