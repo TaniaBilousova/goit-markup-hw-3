@@ -257,7 +257,7 @@ display: block;
 gap: 24px;
 }
 
-.team-members{
+.container-team-memebers{
 padding-top: 32px;
 padding-bottom: 32px;
 text-align: center;
@@ -279,7 +279,7 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.team-options{
+.container-team-options{
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
