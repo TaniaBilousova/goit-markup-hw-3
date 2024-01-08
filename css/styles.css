@@ -34,6 +34,7 @@ border-bottom: 1px solid #e7e9fc;
 }
 .header-container{
 display: flex;
+align-items: center;
 }
 .header-navigation{
 display: flex;
@@ -48,10 +49,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 color:#4D5AE5;
 margin-right: 76px;
-width: 115px;
-height: 4px;
-top: 24px;
-left: 156px;
 }
 .header-part{
 color: #2E2F42;
@@ -76,10 +73,6 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#2E2F42;
-width:261px;
-height: 24px;
-top: 24px;
-left: 347px;
 gap: 40px;
 }
 .header-menu-item:hover{
@@ -123,15 +116,12 @@ width: 151px;
 height: 24px;
 top: 24px;
 left: 1133px;
-margin-right: 0 auto;
+margin-right: auto;
 }
 /**------------------------*/
 /**-------------Hero-----------*/
 .hero{
 background-color: #2e2f42;
-width: 1440px;
-height: 600px;
-top: 72px;
 padding-top: 188px;
 padding-bottom: 188px;
 }
@@ -142,10 +132,8 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #FFFFFF;
-margin: 0 auto;
-height: 120px;
-top: 260px;
-left: 472px;
+margin: auto;
+margin-bottom: 48px;
 max-width: 496px;
 }
 
@@ -160,9 +148,7 @@ color: #FFFFFF;
 background:#4D5AE5;
 min-width: 169px;
 height: 56px;
-top: 428px;
-left: 636px;
-padding: 16px, 32px, 16px, 32px;
+padding: 16px 32px 16px 32px;
 margin: 0 auto;
 border-radius: 4px;
 gap: 10px;
@@ -195,8 +181,6 @@ padding-bottom: 120px ;
 }
 .features-list{
 display: flex;
-width: 1128px;
-height: 104px;
 top: 792px;
 left: 156px;
 gap: 24px;
