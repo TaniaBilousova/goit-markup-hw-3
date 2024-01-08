@@ -280,6 +280,9 @@ text-align: center;
 padding-top: 120px;
 padding-bottom: 120px;
 }
+.our-team-list{
+gap: 48px;
+}
 
 .team-options{
 padding: 32px 16px;
